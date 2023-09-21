@@ -96,7 +96,7 @@ const Join = () => {
               <Button
                 type="button"
                 name="Submit"
-                className={`${classes["sofia-font"]} text-[white] w-[400px] h-[52px]`}
+                className={`${classes["sofia-font"]} text-[white] w-[300px] h-[52px] lg:w-[100%]`}
               />
             </form>
           </div>
