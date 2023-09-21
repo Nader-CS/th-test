@@ -21,7 +21,7 @@ const PackageInfo = () => {
           </p>
         </div>
         <div className="lg:flex">
-          <div className="flex justify-center gap-6 lg:flex-col lg:w-[20%]">
+          <div className="flex flex-col sm:flex-row justify-center gap-6 lg:flex-col lg:w-[20%]">
             <div>
               <div className="flex items-baseline justify-center gap-2">
                 <Image

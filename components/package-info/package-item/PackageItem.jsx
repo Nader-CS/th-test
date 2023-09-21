@@ -90,7 +90,7 @@ const PackageItem = (props) => {
 
   console.log(screenWidth);
   return (
-    <div className="text-[#F8F5EF]">
+    <div className="text-[#F8F5EF] px-2 md:px-0">
       <div className={`${classes["sofia-font-block"]} mt-4`}>
         <h1>{filtered_packages[0].advantages}</h1>
       </div>

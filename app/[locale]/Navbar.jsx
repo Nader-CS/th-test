@@ -28,13 +28,13 @@ const Navbar = () => {
       style={{ fontFamily: "sofia pro" }}
       ref={headerRef}
     >
-      <div className="container mx-auto flex items-center justify-between h-full  text-[#FFFFFF]  px-3 md:px-0">
+      <div className="container mx-auto flex items-center justify-between h-full  text-[#FFFFFF]  px-1 md:px-0 text-[14px] md:text-[16px]">
         <Link href="package">Catering Menu</Link>
         <div className="flex">
           {isNarrowScreen ? (
             <img
               src="/assets/icons/header/header_logo.svg"
-              width={100}
+              width={80}
               height={20}
               alt="logo"
             />
