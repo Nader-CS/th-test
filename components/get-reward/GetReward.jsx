@@ -24,7 +24,7 @@ const GetReward = () => {
             </h1>
 
             <div>
-              <div className="rounded bg-[#E5E5E5] h-[5.5rem] flex justify-center items-center p-5 w-[100%]">
+              <div className="rounded p-3 bg-[#E5E5E5] h-[5.5rem] flex justify-center items-center w-[100%]">
                 <p
                   style={{ width: "300px" }}
                   className={`{classes["bukra-font"]} text-[14px]`}
@@ -46,7 +46,7 @@ const GetReward = () => {
               Profile Update Rewards
             </h1>
             <div>
-              <div className="rounded bg-[#E5E5E5] h-[5.5rem] flex justify-center items-center p-5 w-[100%]">
+              <div className="rounded p-3 bg-[#E5E5E5] h-[5.5rem] flex justify-center items-center  w-[100%]">
                 <p
                   style={{ width: "300px" }}
                   className={`{classes["bukra-font"]} text-[14px]`}
@@ -68,7 +68,7 @@ const GetReward = () => {
               Profile Update Rewards
             </h1>
             <div>
-              <div className="rounded bg-[#E5E5E5] h-[5.5rem] flex justify-center items-center p-5">
+              <div className="rounded p-3 bg-[#E5E5E5] h-[5.5rem] flex justify-center items-center ">
                 <p
                   style={{ width: "300px" }}
                   className={`sm:w-auto ${classes["bukra-font"]}  text-[14px]`}
@@ -89,7 +89,7 @@ const GetReward = () => {
             >
               profile
             </h1>
-            <div className="rounded bg-[#E5E5E5] h-[5.5rem] flex justify-center items-center p-5">
+            <div className="rounded bg-[#E5E5E5] h-[5.5rem] flex justify-center items-center ">
               <div className=" w-[100%] p-3">
                 <p
                   className={`w-[300px] sm:w-auto ${classes["bukra-font"]} text-[14px]`}
@@ -110,7 +110,7 @@ const GetReward = () => {
             >
               Profile Update Rewards
             </h1>
-            <div className="rounded bg-[#E5E5E5] h-[5.5rem] flex justify-center items-center p-5 ">
+            <div className="rounded bg-[#E5E5E5] h-[5.5rem] flex justify-center items-center ">
               <div className=" w-[100%] p-3">
                 <p
                   className={`w-[300px] sm:w-auto ${classes["bukra-font"]} text-[14px]`}
