@@ -69,7 +69,9 @@ const packages = [
 ];
 
 const PackageItem = (props) => {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [screenWidth, setScreenWidth] = useState(
+    typeof window !== "undefined" && window.innerWidth
+  );
 
   const filtered_packages = packages.filter(
     (package_item) => package_item.type === props.type

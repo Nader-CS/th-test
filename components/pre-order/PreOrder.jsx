@@ -13,7 +13,9 @@ const packages = {
   qatar: "./assets/documents/packages/package_qatar.pdf",
 };
 const PreOrder = () => {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [screenWidth, setScreenWidth] = useState(
+    typeof window !== "undefined" && window.innerWidth
+  );
   useEffect(() => {
     const handleResize = () => {
       setScreenWidth(window.innerWidth);
