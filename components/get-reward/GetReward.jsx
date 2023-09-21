@@ -26,7 +26,7 @@ const GetReward = () => {
             <div>
               <div className="rounded bg-[#E5E5E5] h-[5.5rem] flex justify-center items-center p-5 w-[100%]">
                 <p
-                  style={{ width: "420px" }}
+                  style={{ width: "300px" }}
                   className={`{classes["bukra-font"]} text-[14px]`}
                 >
                   Active members, earn 25 points every week
@@ -48,7 +48,7 @@ const GetReward = () => {
             <div>
               <div className="rounded bg-[#E5E5E5] h-[5.5rem] flex justify-center items-center p-5 w-[100%]">
                 <p
-                  style={{ width: "420px" }}
+                  style={{ width: "300px" }}
                   className={`{classes["bukra-font"]} text-[14px]`}
                 >
                   Complete and collect points
@@ -70,7 +70,7 @@ const GetReward = () => {
             <div>
               <div className="rounded bg-[#E5E5E5] h-[5.5rem] flex justify-center items-center p-5">
                 <p
-                  style={{ width: "420px" }}
+                  style={{ width: "300px" }}
                   className={`sm:w-auto ${classes["bukra-font"]}  text-[14px]`}
                 >
                   Play games and earn rewards instantly
@@ -92,7 +92,7 @@ const GetReward = () => {
             <div className="rounded bg-[#E5E5E5] h-[5.5rem] flex justify-center items-center p-5">
               <div className=" w-[100%] p-3">
                 <p
-                  className={`w-[390px] sm:w-auto ${classes["bukra-font"]} text-[14px]`}
+                  className={`w-[300px] sm:w-auto ${classes["bukra-font"]} text-[14px]`}
                 >
                   Give us a sense of who you are and earn 200 Points
                 </p>
@@ -113,7 +113,7 @@ const GetReward = () => {
             <div className="rounded bg-[#E5E5E5] h-[5.5rem] flex justify-center items-center p-5 ">
               <div className=" w-[100%] p-3">
                 <p
-                  className={`w-[390px] sm:w-auto ${classes["bukra-font"]} text-[14px]`}
+                  className={`w-[300px] sm:w-auto ${classes["bukra-font"]} text-[14px]`}
                 >
                   Rewards for you and your friends
                 </p>
